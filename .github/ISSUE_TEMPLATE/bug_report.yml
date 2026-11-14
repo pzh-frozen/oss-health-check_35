@@ -1,0 +1,73 @@
+name: 缺陷报告
+description: 报告一个可复现的问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你抽出时间反馈问题！提交前请先在 issue 列表里搜索是否已有相同问题。
+        如果是安全漏洞，请勿在此公开，按照 SECURITY.md 私下联系维护者。
+
+  - type: input
+    id: version
+    attributes:
+      label: 工具版本
+      description: 运行 `oshc --version` 得到的版本号
+      placeholder: 0.3.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: 操作系统
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 尽量给出可直接执行的命令与最小复现目录
+      placeholder: |
+        1. 执行 `oshc scan ./demo`
+        2. 观察输出中的……
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+      placeholder: 期望得到 85 分并提示缺少 SECURITY.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+      description: 请粘贴完整输出或报错堆栈
+      render: text
+      placeholder: |
+        实际输出……
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 自查
+      options:
+        - label: 我已确认使用的是受支持的最新版本
+          required: true
+        - label: 我已搜索过现有 issue，确认不是重复问题
+          required: true
+        - label: 我已在本地用最小仓库复现该问题
+          required: false
