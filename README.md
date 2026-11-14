@@ -1,4 +1,4 @@
-﻿# oss-health-check · 开源项目健康度检查器
+# oss-health-check · 开源项目健康度检查器
 
 [![CI](https://github.com/pzh-frozen/oss-health-check_35/actions/workflows/ci.yml/badge.svg)](https://github.com/pzh-frozen/oss-health-check_35/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -145,6 +145,7 @@ oss-health-check_35/
 | 文档 | 内容 |
 | --- | --- |
 | [docs/architecture.md](docs/architecture.md) | 模块划分、数据流、如何新增一个检查项 |
+| [docs/git-workflow.md](docs/git-workflow.md) | 分支模型、合并策略、一次真实冲突的解决记录 |
 | [docs/strategy-analysis.md](docs/strategy-analysis.md) | 华为「五看三定」战略分析：行业、客户、竞争、自身、机会与落地策略 |
 | [docs/faq.md](docs/faq.md) | 常见问题与排查思路 |
 | [CHANGELOG.md](CHANGELOG.md) | 版本历史 |
