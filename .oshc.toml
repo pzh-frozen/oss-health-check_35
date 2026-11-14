@@ -1,0 +1,15 @@
+# oss-health-check 的项目级配置示例
+# 复制为 .oshc.toml 后按需修改；命令行参数优先于本文件。
+
+[weights]
+# 教学场景下可以调高文档类权重
+readme = 20
+tests = 15
+
+[ignore]
+# 不适用于本仓库的检查项会被标记为「跳过」，不计入分母
+checks = []
+
+[report]
+# 总分低于该值时 `oshc scan` 返回退出码 1
+fail_under = 80
