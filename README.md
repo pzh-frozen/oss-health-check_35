@@ -153,7 +153,7 @@ oss-health-check_35/
 
 - [x] v0.1.0：13 项检查 + 加权评分 + 终端报告
 - [x] v0.2.0：JSON / Markdown 输出、`--fail-under` 质量门禁（已发布）
-- [x] v0.3.0：配置化评分（`.oshc.toml`），支持按课程场景调整权重
+- [x] v0.3.0：`.oshc.toml` 配置（自定义权重、忽略项、阈值）
 - [ ] v0.4.0：检查项插件化（entry points 动态加载）
 - [ ] v0.5.0：GitHub Action 封装，自动给 PR 评论评分卡
 - [ ] v0.6.0：README 章节质量检测（是否给出可复制的示例命令）
