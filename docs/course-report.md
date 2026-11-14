@@ -19,11 +19,11 @@
 
 | 要求 | 完成情况 | 证据 |
 | --- | --- | --- |
-| （1）在 GitHub 上建立自己的项目，项目名称为「项目名称_学号后两位」 | 已建立公开仓库 `pzh-frozen/oss-health-check_35`，默认分支 `main`，共 30 个提交 | 仓库首页；`git log --oneline` |
+| （1）在 GitHub 上建立自己的项目，项目名称为「项目名称_学号后两位」 | 已建立公开仓库 `pzh-frozen/oss-health-check_35`，默认分支 `main`，20 余个提交 | 仓库首页；`git log --oneline` |
 | （2）选择合适的许可证，写好 README 与各种项目文档 | MIT 许可证；README 含特性、安装、用法、输出示例、检查项表、评分规则、项目结构、路线图；另有贡献指南、行为准则、安全策略、变更日志、issue/PR 模板、CI 配置 | [LICENSE](../LICENSE)、[README](../README.md)、[CONTRIBUTING](../CONTRIBUTING.md)、[CODE_OF_CONDUCT](../CODE_OF_CONDUCT.md)、[SECURITY](../SECURITY.md)、[CHANGELOG](../CHANGELOG.md) |
-| （3）体现分支管理：创建分支、合并分支、解决冲突 | 共创建 6 个功能/文档分支，全部通过 `git merge --no-ff` 合入 `main`，并解决了一次真实的 README 合并冲突 | `git log --graph --oneline --all`；[docs/git-workflow.md](git-workflow.md) |
+| （3）体现分支管理：创建分支、合并分支、解决冲突 | 先后创建 7 个功能/文档分支，全部通过 `git merge --no-ff` 合入 `main`，并解决了一次真实的 README 合并冲突 | `git log --graph --oneline --all`；[docs/git-workflow.md](git-workflow.md) |
 | （4）邀请同学进行 issue 讨论、star、watch | issue / PR 模板与讨论区入口已就绪；邀请同学参与的具体步骤见本文第四节 | `.github/ISSUE_TEMPLATE/`、`.github/PULL_REQUEST_TEMPLATE.md` |
-| （5）根据华为「五看三定」对项目进行分析 | 完成约 6000 字的战略分析，覆盖五看（行业/趋势、市场/客户、竞争、自己、机会）与三定（战略控制点、目标、策略），并给出路线图、风险表与季度 OKR | [docs/strategy-analysis.md](strategy-analysis.md) |
+| （5）根据华为「五看三定」对项目进行分析 | 完成约 4400 个汉字的战略分析（含表格与代码块约 8400 字符），覆盖五看（行业/趋势、市场/客户、竞争、自己、机会）与三定（战略控制点、目标、策略），并给出路线图、风险表与季度 OKR | [docs/strategy-analysis.md](strategy-analysis.md) |
 | 字数 | 不限 | — |
 
 ## 三、分支管理与冲突解决记录
@@ -38,6 +38,7 @@
 | `docs/readme-roadmap` | 更新 README 路线图（v0.2.0 标记已发布、补充 v0.3.0） | `32dfbff` |
 | `docs/readme-release` | 补充 v0.3.0 发布说明（与上一条修改同一段，产生冲突） | `5f3fdd4` |
 | `docs/git-workflow` | 记录分支模型与冲突解决过程 | `28d7a12` |
+| `docs/course-report` | 本文档：考核要求对照与统计校准 | `47966a5` |
 
 所有合并均使用 `--no-ff`，保留分支上下文，便于用 `git log --graph` 复盘。
 
