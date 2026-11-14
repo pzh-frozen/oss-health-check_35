@@ -146,6 +146,7 @@ oss-health-check_35/
 | --- | --- |
 | [docs/architecture.md](docs/architecture.md) | 模块划分、数据流、如何新增一个检查项 |
 | [docs/git-workflow.md](docs/git-workflow.md) | 分支模型、合并策略、一次真实冲突的解决记录 |
+| [docs/course-report.md](docs/course-report.md) | 期末考核要求对照、分支合并记录与参与指引 |
 | [docs/strategy-analysis.md](docs/strategy-analysis.md) | 华为「五看三定」战略分析：行业、客户、竞争、自身、机会与落地策略 |
 | [docs/faq.md](docs/faq.md) | 常见问题与排查思路 |
 | [CHANGELOG.md](CHANGELOG.md) | 版本历史 |
