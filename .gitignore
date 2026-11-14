@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 测试与覆盖率
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# 工具生成的报告
+health.json
+health-report.md
+.tmp_pytest/
+
+# 编辑器与系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
